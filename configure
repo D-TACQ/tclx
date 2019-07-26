@@ -9179,7 +9179,7 @@ $as_echo "$tcl_cv_union_wait" >&6; }
     { $as_echo "$as_me:${as_lineno-$LINENO}: checking checking to see what 'times' returns" >&5
 $as_echo_n "checking checking to see what 'times' returns... " >&6; }
     if test "$cross_compiling" = yes; then :
-  as_fn_error $? "cross-compiling not supported" "$LINENO" 5
+           $as_echo "cross_compiling rules OK"
 else
   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
